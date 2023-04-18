@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 347564405}
   m_Layer: 0
   m_Name: Triangle
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -217,6 +217,10 @@ PrefabInstance:
     - target: {fileID: 174264886602335885, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
       propertyPath: m_Name
       value: Triangle (1) 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 174264886602335885, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 174264886602335874, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}

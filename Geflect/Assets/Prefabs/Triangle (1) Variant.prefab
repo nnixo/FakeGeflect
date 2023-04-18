@@ -102,6 +102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (1) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 174264886602335885, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 174264886602335874, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
