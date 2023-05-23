@@ -261,7 +261,8 @@ PrefabInstance:
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"EnemyPosition","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyRotation","value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0,"$type":"UnityEngine.Quaternion"},"typeHandle":{"Identification":"UnityEngine.Quaternion,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"speed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 174264886602335875, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -277,15 +278,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 174264886602335879, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.99
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 174264886602335879, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.99
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 174264886602335879, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.99
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 174264886602335879, guid: e559c39298b7d01448024ce17c4c2c95, type: 3}
       propertyPath: m_LocalPosition.x

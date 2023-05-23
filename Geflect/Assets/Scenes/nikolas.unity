@@ -1911,14 +1911,14 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.7
+  m_Mass: 1.3
   m_LinearDrag: 0.8
   m_AngularDrag: 0.05
   m_GravityScale: 1.2
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &1298369865
 SpriteRenderer:
@@ -2020,7 +2020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PlayerSpeed","value":{"$content":600.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PlayerSpeed","value":{"$content":550.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!96 &1298369869
@@ -2095,21 +2095,21 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.39607844, g: 0.59607846, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
-      key6: {r: 0, g: 0, b: 0, a: 0}
+      key0: {r: 1, g: 0.3698832, b: 0, a: 1}
+      key1: {r: 0.9528302, g: 0.55333364, b: 0.25528654, a: 1}
+      key2: {r: 1, g: 0.6808902, b: 0.2679245, a: 0}
+      key3: {r: 1, g: 0.8505153, b: 0.4660377, a: 0}
+      key4: {r: 1, g: 0.89056605, b: 0.61698115, a: 0}
+      key5: {r: 1, g: 0.9474758, b: 0.80566037, a: 0}
+      key6: {r: 1, g: 0.9474758, b: 0.80566037, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 42598
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
+      ctime0: 3855
+      ctime1: 16577
+      ctime2: 30262
+      ctime3: 43176
+      ctime4: 53970
+      ctime5: 61680
+      ctime6: 61680
       ctime7: 0
       atime0: 0
       atime1: 65535
@@ -2120,7 +2120,7 @@ TrailRenderer:
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 2
+      m_NumColorKeys: 6
       m_NumAlphaKeys: 2
     numCornerVertices: 19
     numCapVertices: 0
@@ -2708,7 +2708,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556897777}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -2726,14 +2726,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.06131679, y: 3.5309303}
-      - {x: -1.5299405, y: 0.9234956}
-      - {x: -1.4971777, y: -1.500221}
-      - {x: 0.641674, y: -3.744938}
-      - {x: 2.6850605, y: -2.4985895}
-      - {x: 1.782867, y: -0.6295761}
-      - {x: 1.8198261, y: 0.91126645}
-      - {x: 2.8267677, y: 2.7380936}
+    - - {x: -1.5, y: 4.5}
+      - {x: -2.5, y: 1.5}
+      - {x: -2.5, y: -1.5}
+      - {x: -1.5, y: -4.5}
+      - {x: 3, y: -3}
+      - {x: 2.5, y: 1}
+      - {x: 2.5, y: 1}
+      - {x: 3, y: 3}
 --- !u!1 &1665868852
 GameObject:
   m_ObjectHideFlags: 0
@@ -3026,10 +3026,10 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"bullet
       homing","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BulletGround","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyTime","value":{"$content":40.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"BigEnemyTime","value":{"$content":120.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GroundEnemyTime","value":{"$content":40.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FastEnemyTime","value":{"$content":50.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EnemyTime","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"BigEnemyTime","value":{"$content":25.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GroundEnemyTime","value":{"$content":15.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"FastEnemyTime","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1298369862}
