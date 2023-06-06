@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1507786225375997970}
   - component: {fileID: 1507786225375997971}
   - component: {fileID: 1507786225375997980}
+  - component: {fileID: 1464537467550754644}
   m_Layer: 0
   m_Name: GroundBullet
   m_TagString: bullet
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1507786225375997981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.199, y: -12.229, z: 0}
-  m_LocalScale: {x: 0.37, y: 0.37, z: 0.37}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,8 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2135585597343286014, guid: 5aa8b770bc43046bc8d993d0d5b7f4a5, type: 3}
-  m_Color: {r: 1, g: 0.6074367, b: 0.35534585, a: 1}
+  m_Sprite: {fileID: -1671006849, guid: 1004b484562bd9a4a95d331b6bb9eedb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -116,7 +117,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507786225375997981}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -157,3 +158,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 7de6f74f5e668d146aad4de011f8f5f6, type: 2}
+--- !u!70 &1464537467550754644
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507786225375997981}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.7061427e-10, y: -0.0014312165}
+  m_Size: {x: 1.0100002, y: 0.2685859}
+  m_Direction: 1
